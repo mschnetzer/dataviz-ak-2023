@@ -12,23 +12,8 @@ csl: data/dataviz.csl
 
 website:
   title: "Schöner Visualisieren"
-  site-url: "https://mschnetzer.github.io/dataviz-momentum-2023/"
-  
-  navbar:
-    pinned: true
-    background: light
-    foreground: "#5d8198"
-    collapse: true
-    right:
-      - href: index.qmd
-        text: About
-      - href: syllabus.qmd
-        text: Syllabus
-      - href: schedule.qmd
-        text: Schedule
-      - href: visualization.qmd
-        text: Chart & Report
-        
+  site-url: "https://mschnetzer.github.io/dataviz-ak-2023/"
+
   page-footer:
     right: |
       {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by {{< var author >}}

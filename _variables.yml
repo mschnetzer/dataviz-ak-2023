@@ -12,11 +12,11 @@ instructor:
 course:
   title: Workshop Datenvisualisierung
   subtitle: "Schöner Visualisieren"
-  date: "5. April 2023"
-  location: "Momentum Institut"
+  date: "3. Juli 2023"
+  location: "Abteilung Wirtschaftswissenschaft, AK Wien"
   icon: fa-chart-column
   icon-bg: fa-comment
-  url: "https://mschnetzer.github.io/dataviz-momentum-2023"
+  url: "https://mschnetzer.github.io/dataviz-ak-2023"
   copyright_year: "2023"
 
 university:
