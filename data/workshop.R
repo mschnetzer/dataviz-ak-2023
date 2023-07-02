@@ -122,6 +122,7 @@ gdpgrowth |> ggplot(aes(x = time, y = values)) +
 library(ggbump)
 library(ggflags)
 library(futurevisions)
+library(colorspace)
 
 growthrank <- gdpgrowth |> 
   mutate(rank = rank(-values, ties.method = "random"), .by = time) |> 
@@ -152,4 +153,4 @@ growthrank |>
         axis.text.y = element_blank(),
         axis.text.x = element_text(color = "white", size = 10))
 
-ggsave("~/Desktop/bipbump.png", width = 8, height = 4, dpi = 320)
+ggsave("bipbump.png", width = 8, height = 4, dpi = 320)
